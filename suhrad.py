@@ -2,9 +2,7 @@ import time
 inputSeconds=input("Seconds: ",)
 remainingSeconds=inputSeconds
 
-
-#print(seconds)
-
+#2 commit
 def countdown_timer(remainingSeconds):
 
     while remainingSeconds>0:
@@ -23,6 +21,8 @@ def countdown_timer(remainingSeconds):
     print("Time is Up")
  
 countdown_timer(int(remainingSeconds))
+
+
 
 
 
